@@ -23,9 +23,9 @@
 		392328D51D1A772E00822D53 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392328D41D1A772E00822D53 /* libz.1.2.5.tbd */; };
 		392328D71D1A773E00822D53 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392328D61D1A773E00822D53 /* libicucore.tbd */; };
 		392328D91D1A774800822D53 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392328D81D1A774800822D53 /* libsqlite3.tbd */; };
-		AF422EBE1D4B082100AA731B /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF422EBD1D4B082100AA731B /* RegisterViewController.swift */; };
-		AF422EC01D4B3A6100AA731B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF422EBF1D4B3A6100AA731B /* LoginViewController.swift */; };
-		AF422EC21D4B3A6C00AA731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF422EC11D4B3A6C00AA731B /* Main.storyboard */; };
+		AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FBE1D4B521E00A17796 /* LoginViewController.swift */; };
+		AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */; };
+		AF422EC41D4B491200AA731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF422EC31D4B491200AA731B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,9 +69,9 @@
 		392328D61D1A773E00822D53 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		392328D81D1A774800822D53 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		392328DA1D1A77EA00822D53 /* GroupTall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroupTall-Bridging-Header.h"; sourceTree = "<group>"; };
-		AF422EBD1D4B082100AA731B /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		AF422EBF1D4B3A6100AA731B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		AF422EC11D4B3A6C00AA731B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AF3E5FBE1D4B521E00A17796 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AF422EC31D4B491200AA731B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +139,9 @@
 				3923289F1D1A760C00822D53 /* LaunchScreen.storyboard */,
 				392328A21D1A760C00822D53 /* Info.plist */,
 				392328DA1D1A77EA00822D53 /* GroupTall-Bridging-Header.h */,
-				AF422EBD1D4B082100AA731B /* RegisterViewController.swift */,
-				AF422EBF1D4B3A6100AA731B /* LoginViewController.swift */,
-				AF422EC11D4B3A6C00AA731B /* Main.storyboard */,
+				AF422EC31D4B491200AA731B /* Main.storyboard */,
+				AF3E5FBE1D4B521E00A17796 /* LoginViewController.swift */,
+				AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */,
 			);
 			path = GroupTall;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF422EC21D4B3A6C00AA731B /* Main.storyboard in Resources */,
+				AF422EC41D4B491200AA731B /* Main.storyboard in Resources */,
 				392328A11D1A760C00822D53 /* LaunchScreen.storyboard in Resources */,
 				3923289E1D1A760C00822D53 /* Assets.xcassets in Resources */,
 			);
@@ -313,8 +313,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF422EC01D4B3A6100AA731B /* LoginViewController.swift in Sources */,
-				AF422EBE1D4B082100AA731B /* RegisterViewController.swift in Sources */,
+				AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */,
+				AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */,
 				392328971D1A760C00822D53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
