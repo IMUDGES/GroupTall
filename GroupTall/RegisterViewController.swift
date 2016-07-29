@@ -1,5 +1,5 @@
 //
-//  LoginViewController.swift
+//  RegisterViewController.swift
 //  GroupTall
 //
 //  Created by Dule on 7/29/16.
@@ -8,12 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
-    @IBAction func btnRegisterOnClicked(sender:AnyObject){
-        
-    }
-    @IBAction func btnLoginOnClicked(sender: AnyObject) {
-    }
+class RegisterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
