@@ -27,7 +27,7 @@ class LoginViewController: UIViewController {
         //读取上次配置
         self.tf_phoneNumber.text = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
         self.tf_password.text = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
-        //login(tf_phoneNumber.text!, password: tf_password.text!)
+        login(tf_phoneNumber.text!, password: tf_password.text!)
         // Do any additional setup after loading the view.
     }
 
@@ -44,7 +44,7 @@ class LoginViewController: UIViewController {
                 let bmob_password = obj.objectForKey("password") as? String
                 if phoneNumber==bmob_phoneNumber {
                     if password==bmob_password {
-                        print("Login Success!")
+                        //print("Login Success!")
                         let StrPhoneNumberKey:String = "phoneNumber"
                         let StrPasswordKey:String = "password"
                         //设置存储信息

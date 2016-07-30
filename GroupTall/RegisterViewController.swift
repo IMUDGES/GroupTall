@@ -55,9 +55,10 @@ class RegisterViewController: UIViewController {
         bmob.saveInBackgroundWithResultBlock { (isSuccessful, error) in
             if error != nil{
                 let errorInfo=error.localizedDescription
-                print("Register Faild! \(errorInfo)")
+                // FIXME: Change style to support ios 9.0
+                UIAlertView(title: "Error", message: "Register Faild! \(errorInfo)", delegate: self, cancelButtonTitle: "OK").show()
             }else{
-                print("Thank you!")
+                //print("Thank you!")
                 let StrPhoneNumberKey:String = "phoneNumber"
                 let StrPasswordKey:String = "password"
                 //设置存储信息
