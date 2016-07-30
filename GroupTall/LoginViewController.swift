@@ -23,14 +23,13 @@ class LoginViewController: UIViewController {
         }
     }
     override func viewDidLoad() {
-        super.viewDidLoad()
         //读取上次配置
         self.tf_phoneNumber.text = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
         self.tf_password.text = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
         login(tf_phoneNumber.text!, password: tf_password.text!)
+        super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
