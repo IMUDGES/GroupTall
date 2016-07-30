@@ -24,8 +24,10 @@ class RegisterViewController: UIViewController {
 //            alertController.addAction(cancelAction)
 //            alertController.addAction(okAction)
 //            self.presentViewController(alertController, animated:true, completion: nil)
+            //FIXME: Change style to support ios 9.0
             UIAlertView(title: "Error", message: "Must be fill all the options.", delegate: self, cancelButtonTitle: "OK").show()
         }else if(password! != passwordRepet!){
+            //FIXME: Change style to support ios 9.0
             UIAlertView(title: "Error", message: "Password repet is not same as password.", delegate: self, cancelButtonTitle: "OK").show()
         }else{
             self.register(phoneNumber!,password:password!)
@@ -56,6 +58,13 @@ class RegisterViewController: UIViewController {
                 print("Register Faild! \(errorInfo)")
             }else{
                 print("Thank you!")
+                let StrPhoneNumberKey:String = "phoneNumber"
+                let StrPasswordKey:String = "password"
+                //设置存储信息
+                NSUserDefaults.standardUserDefaults().setObject(phoneNumber, forKey:StrPhoneNumberKey)
+                NSUserDefaults.standardUserDefaults().setObject(password, forKey: StrPasswordKey)
+                //设置同步
+                NSUserDefaults.standardUserDefaults().synchronize()
                 self.performSegueWithIdentifier("Back", sender: self)
             }
         }

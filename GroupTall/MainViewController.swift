@@ -2,8 +2,8 @@
 //  MainViewController.swift
 //  GroupTall
 //
-//  Created by liuzhenyu on 16/6/30.
-//  Copyright © 2016年 liuzhenyu. All rights reserved.
+//  Created by Dule on 7/30/16.
+//  Copyright © 2016 liuzhenyu. All rights reserved.
 //
 
 import UIKit
@@ -12,7 +12,9 @@ class MainViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let phoneNumber = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
+        let password = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
+        print("phoneNumber:\(phoneNumber!)\tpassword:\(password!)")
         // Do any additional setup after loading the view.
     }
 

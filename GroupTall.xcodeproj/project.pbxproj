@@ -25,6 +25,7 @@
 		392328D91D1A774800822D53 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 392328D81D1A774800822D53 /* libsqlite3.tbd */; };
 		AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FBE1D4B521E00A17796 /* LoginViewController.swift */; };
 		AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */; };
+		AF3E5FC31D4C3BE700A17796 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FC21D4C3BE700A17796 /* MainViewController.swift */; };
 		AF422EC41D4B491200AA731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF422EC31D4B491200AA731B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,7 @@
 		392328DA1D1A77EA00822D53 /* GroupTall-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GroupTall-Bridging-Header.h"; sourceTree = "<group>"; };
 		AF3E5FBE1D4B521E00A17796 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		AF3E5FC21D4C3BE700A17796 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AF422EC31D4B491200AA731B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -142,6 +144,7 @@
 				AF422EC31D4B491200AA731B /* Main.storyboard */,
 				AF3E5FBE1D4B521E00A17796 /* LoginViewController.swift */,
 				AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */,
+				AF3E5FC21D4C3BE700A17796 /* MainViewController.swift */,
 			);
 			path = GroupTall;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */,
 				AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */,
 				392328971D1A760C00822D53 /* AppDelegate.swift in Sources */,
+				AF3E5FC31D4C3BE700A17796 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,6 +16,7 @@ class LoginViewController: UIViewController {
         let phoneNumber = tf_phoneNumber.text
         let password = tf_password.text
         if(phoneNumber == nil || password == nil || phoneNumber == "" || password == ""){
+            //FIXME: Change style to support ios 9.0
             UIAlertView(title: "Error", message: "Must be fill all the options.", delegate: self, cancelButtonTitle: "OK").show()
         }else{
             login(phoneNumber!, password: password!)
@@ -23,6 +24,10 @@ class LoginViewController: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        //读取上次配置
+        self.tf_phoneNumber.text = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
+        self.tf_password.text = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
+        //login(tf_phoneNumber.text!, password: tf_password.text!)
         // Do any additional setup after loading the view.
     }
 
@@ -37,15 +42,34 @@ class LoginViewController: UIViewController {
                 let obj = array[i] as! BmobObject
                 let bmob_phoneNumber = obj.objectForKey("phoneNumber") as? String
                 let bmob_password = obj.objectForKey("password") as? String
-                if phoneNumber==bmob_phoneNumber&&password==bmob_password{
-                    print("Login Success!")
-                    self.performSegueWithIdentifier("LoginSuccess", sender: self)
-                    break
+                if phoneNumber==bmob_phoneNumber {
+                    if password==bmob_password {
+                        print("Login Success!")
+                        let StrPhoneNumberKey:String = "phoneNumber"
+                        let StrPasswordKey:String = "password"
+                        //设置存储信息
+                        NSUserDefaults.standardUserDefaults().setObject(phoneNumber, forKey:StrPhoneNumberKey)
+                        NSUserDefaults.standardUserDefaults().setObject(password, forKey: StrPasswordKey)
+                        //设置同步
+                        NSUserDefaults.standardUserDefaults().synchronize()
+                        self.performSegueWithIdentifier("LoginSuccess", sender: self)
+                        return
+                    }else{
+                        //FIXME: Change style to support ios 9.0
+                        UIAlertView(title: "Error", message: "Password wrong!", delegate: self, cancelButtonTitle: "OK").show()
+                        return
+                    }
                 }
             }
             if error != nil{
                 let errorInfo=error.localizedDescription
-                print("Login Faild! \(errorInfo)")
+                //FIXME: Change style to support ios 9.0
+                UIAlertView(title: "Error", message: "Login Faild! \(errorInfo)", delegate: self, cancelButtonTitle: "OK").show()
+                return
+            }else{
+                //FIXME: Change style to support ios 9.0
+                UIAlertView(title: "Error", message: "Phone number not found!", delegate: self, cancelButtonTitle: "OK").show()
+                return
             }
         }
         

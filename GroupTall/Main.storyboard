@@ -107,12 +107,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ze-99-LpL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-111" y="1149"/>
+            <point key="canvasLocation" x="-109" y="617"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="fOW-qR-v2i">
             <objects>
-                <viewController id="MuK-vc-GkK" sceneMemberID="viewController">
+                <viewController id="MuK-vc-GkK" customClass="MainViewController" customModule="GroupTall" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6S8-93-s9J"/>
                         <viewControllerLayoutGuide type="bottom" id="x0s-Xj-BHA"/>
