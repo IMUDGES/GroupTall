@@ -1,5 +1,5 @@
 //
-//  MainViewController.swift
+//  ContactsViewController.swift
 //  GroupTall
 //
 //  Created by Dule on 7/30/16.
@@ -8,14 +8,11 @@
 
 import UIKit
 
-class MainViewController: UIViewController {
+class ContactsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //self.performSegueWithIdentifier("Jump", sender: self)
-//        let phoneNumber = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
-//        let password = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
-        //print("phoneNumber:\(phoneNumber!)\tpassword:\(password!)")
+
         // Do any additional setup after loading the view.
     }
 
@@ -23,6 +20,8 @@ class MainViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+
     /*
     // MARK: - Navigation
 
