@@ -28,12 +28,14 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(animated: Bool) {
-        let phoneNumber = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
-        let password = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
-        if(phoneNumber != nil && password != nil && phoneNumber != "" && password != ""){
-            self.performSegueWithIdentifier("LoginSuccess", sender: self )
-            //login(User(phoneNumber: phoneNumber, password: password))
-        }
+//        let phoneNumber = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
+//        let password = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
+//        if(phoneNumber != nil && password != nil && phoneNumber != "" && password != ""){
+//            self.performSegueWithIdentifier("LoginSuccess", sender: self )
+//            //login(User(phoneNumber: phoneNumber, password: password))
+//        }
+        tf_phoneNumber.text = NSUserDefaults.standardUserDefaults().valueForKey("phoneNumber") as? String
+        tf_password.text = NSUserDefaults.standardUserDefaults().valueForKey("password") as? String
     }
     internal func login(user:User){
         let query:BmobQuery = BmobQuery(className:"UserInfo")
