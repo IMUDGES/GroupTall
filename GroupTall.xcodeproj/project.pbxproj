@@ -28,6 +28,12 @@
 		AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */; };
 		AF3E5FC91D4C8AEC00A17796 /* BmobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FC81D4C8AEC00A17796 /* BmobController.swift */; };
 		AF422EC41D4B491200AA731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF422EC31D4B491200AA731B /* Main.storyboard */; };
+		AF6C3BCF1D4DDF1A0062DD38 /* login_back.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6C3BCE1D4DDF1A0062DD38 /* login_back.png */; };
+		AF9F59991D4DEC4000CC6A04 /* Active.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59951D4DEC4000CC6A04 /* Active.png */; };
+		AF9F599A1D4DEC4000CC6A04 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59961D4DEC4000CC6A04 /* Contacts.png */; };
+		AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59971D4DEC4000CC6A04 /* Me.png */; };
+		AF9F599C1D4DEC4000CC6A04 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59981D4DEC4000CC6A04 /* Home.png */; };
+		AF9F59A01D4DEDD300CC6A04 /* IMUDGES.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F599F1D4DEDD300CC6A04 /* IMUDGES.png */; };
 		AFEF0F791D4CA3E1005716B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF0F781D4CA3E1005716B7 /* HomeViewController.swift */; };
 		AFEF0F7B1D4CA3F4005716B7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF0F7A1D4CA3F4005716B7 /* ContactsViewController.swift */; };
 		AFEF0F7D1D4CA403005716B7 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF0F7C1D4CA403005716B7 /* ActiveViewController.swift */; };
@@ -80,6 +86,12 @@
 		AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		AF3E5FC81D4C8AEC00A17796 /* BmobController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BmobController.swift; sourceTree = "<group>"; };
 		AF422EC31D4B491200AA731B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		AF6C3BCE1D4DDF1A0062DD38 /* login_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_back.png; sourceTree = "<group>"; };
+		AF9F59951D4DEC4000CC6A04 /* Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Active.png; sourceTree = "<group>"; };
+		AF9F59961D4DEC4000CC6A04 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
+		AF9F59971D4DEC4000CC6A04 /* Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me.png; sourceTree = "<group>"; };
+		AF9F59981D4DEC4000CC6A04 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		AF9F599F1D4DEDD300CC6A04 /* IMUDGES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMUDGES.png; sourceTree = "<group>"; };
 		AFEF0F781D4CA3E1005716B7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AFEF0F7A1D4CA3F4005716B7 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
 		AFEF0F7C1D4CA403005716B7 /* ActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
@@ -146,6 +158,7 @@
 		392328951D1A760C00822D53 /* GroupTall */ = {
 			isa = PBXGroup;
 			children = (
+				AF6C3BCD1D4DDEF80062DD38 /* imag */,
 				AFEF0F731D4CA2FD005716B7 /* Other */,
 				AFEF0F721D4CA2D5005716B7 /* View */,
 				AFEF0F711D4CA2BB005716B7 /* ViewControll */,
@@ -188,6 +201,19 @@
 				392328C41D1A76AD00822D53 /* BmobSDK.framework */,
 			);
 			name = Framework;
+			sourceTree = "<group>";
+		};
+		AF6C3BCD1D4DDEF80062DD38 /* imag */ = {
+			isa = PBXGroup;
+			children = (
+				AF6C3BCE1D4DDF1A0062DD38 /* login_back.png */,
+				AF9F59951D4DEC4000CC6A04 /* Active.png */,
+				AF9F59961D4DEC4000CC6A04 /* Contacts.png */,
+				AF9F59971D4DEC4000CC6A04 /* Me.png */,
+				AF9F59981D4DEC4000CC6A04 /* Home.png */,
+				AF9F599F1D4DEDD300CC6A04 /* IMUDGES.png */,
+			);
+			name = imag;
 			sourceTree = "<group>";
 		};
 		AFEF0F701D4CA273005716B7 /* Util */ = {
@@ -337,9 +363,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9F599A1D4DEC4000CC6A04 /* Contacts.png in Resources */,
 				AF422EC41D4B491200AA731B /* Main.storyboard in Resources */,
+				AF9F59A01D4DEDD300CC6A04 /* IMUDGES.png in Resources */,
 				392328A11D1A760C00822D53 /* LaunchScreen.storyboard in Resources */,
+				AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */,
+				AF9F599C1D4DEC4000CC6A04 /* Home.png in Resources */,
+				AF6C3BCF1D4DDF1A0062DD38 /* login_back.png in Resources */,
 				3923289E1D1A760C00822D53 /* Assets.xcassets in Resources */,
+				AF9F59991D4DEC4000CC6A04 /* Active.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
