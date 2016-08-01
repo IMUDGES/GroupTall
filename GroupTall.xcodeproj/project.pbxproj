@@ -29,15 +29,15 @@
 		AF3E5FC91D4C8AEC00A17796 /* BmobController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF3E5FC81D4C8AEC00A17796 /* BmobController.swift */; };
 		AF422EC41D4B491200AA731B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF422EC31D4B491200AA731B /* Main.storyboard */; };
 		AF6C3BCF1D4DDF1A0062DD38 /* login_back.png in Resources */ = {isa = PBXBuildFile; fileRef = AF6C3BCE1D4DDF1A0062DD38 /* login_back.png */; };
+		AF6EBD971D4EDC5B00DDBF53 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EBD961D4EDC5B00DDBF53 /* TabbarViewController.swift */; };
+		AF6EBD991D4EE1A100DDBF53 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EBD981D4EE1A100DDBF53 /* HomeViewController.swift */; };
+		AF6EBD9B1D4EE64200DDBF53 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EBD9A1D4EE64200DDBF53 /* MeViewController.swift */; };
+		AF6EBD9D1D4EF46000DDBF53 /* BmobIMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6EBD9C1D4EF46000DDBF53 /* BmobIMSDK.framework */; };
 		AF9F59991D4DEC4000CC6A04 /* Active.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59951D4DEC4000CC6A04 /* Active.png */; };
 		AF9F599A1D4DEC4000CC6A04 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59961D4DEC4000CC6A04 /* Contacts.png */; };
 		AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59971D4DEC4000CC6A04 /* Me.png */; };
 		AF9F599C1D4DEC4000CC6A04 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59981D4DEC4000CC6A04 /* Home.png */; };
 		AF9F59A01D4DEDD300CC6A04 /* IMUDGES.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F599F1D4DEDD300CC6A04 /* IMUDGES.png */; };
-		AFEF0F791D4CA3E1005716B7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF0F781D4CA3E1005716B7 /* HomeViewController.swift */; };
-		AFEF0F7B1D4CA3F4005716B7 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF0F7A1D4CA3F4005716B7 /* ContactsViewController.swift */; };
-		AFEF0F7D1D4CA403005716B7 /* ActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF0F7C1D4CA403005716B7 /* ActiveViewController.swift */; };
-		AFEF0F7F1D4CA417005716B7 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEF0F7E1D4CA417005716B7 /* MeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,15 +87,15 @@
 		AF3E5FC81D4C8AEC00A17796 /* BmobController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BmobController.swift; sourceTree = "<group>"; };
 		AF422EC31D4B491200AA731B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AF6C3BCE1D4DDF1A0062DD38 /* login_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_back.png; sourceTree = "<group>"; };
+		AF6EBD961D4EDC5B00DDBF53 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		AF6EBD981D4EE1A100DDBF53 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF6EBD9A1D4EE64200DDBF53 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		AF6EBD9C1D4EF46000DDBF53 /* BmobIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobIMSDK.framework; sourceTree = "<group>"; };
 		AF9F59951D4DEC4000CC6A04 /* Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Active.png; sourceTree = "<group>"; };
 		AF9F59961D4DEC4000CC6A04 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
 		AF9F59971D4DEC4000CC6A04 /* Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me.png; sourceTree = "<group>"; };
 		AF9F59981D4DEC4000CC6A04 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
 		AF9F599F1D4DEDD300CC6A04 /* IMUDGES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMUDGES.png; sourceTree = "<group>"; };
-		AFEF0F781D4CA3E1005716B7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		AFEF0F7A1D4CA3F4005716B7 /* ContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
-		AFEF0F7C1D4CA403005716B7 /* ActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveViewController.swift; sourceTree = "<group>"; };
-		AFEF0F7E1D4CA417005716B7 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +106,7 @@
 				392328D91D1A774800822D53 /* libsqlite3.tbd in Frameworks */,
 				392328D71D1A773E00822D53 /* libicucore.tbd in Frameworks */,
 				392328D51D1A772E00822D53 /* libz.1.2.5.tbd in Frameworks */,
+				AF6EBD9D1D4EF46000DDBF53 /* BmobIMSDK.framework in Frameworks */,
 				392328D31D1A772300822D53 /* SystemConfiguration.framework in Frameworks */,
 				392328D11D1A771800822D53 /* CoreTelephony.framework in Frameworks */,
 				392328CF1D1A770C00822D53 /* CFNetwork.framework in Frameworks */,
@@ -191,6 +192,8 @@
 				392328D81D1A774800822D53 /* libsqlite3.tbd */,
 				392328D61D1A773E00822D53 /* libicucore.tbd */,
 				392328D41D1A772E00822D53 /* libz.1.2.5.tbd */,
+				392328C41D1A76AD00822D53 /* BmobSDK.framework */,
+				AF6EBD9C1D4EF46000DDBF53 /* BmobIMSDK.framework */,
 				392328D21D1A772300822D53 /* SystemConfiguration.framework */,
 				392328D01D1A771800822D53 /* CoreTelephony.framework */,
 				392328CE1D1A770C00822D53 /* CFNetwork.framework */,
@@ -198,7 +201,6 @@
 				392328CA1D1A76F800822D53 /* CoreGraphics.framework */,
 				392328C81D1A76E300822D53 /* Security.framework */,
 				392328C61D1A76D700822D53 /* CoreLocation.framework */,
-				392328C41D1A76AD00822D53 /* BmobSDK.framework */,
 			);
 			name = Framework;
 			sourceTree = "<group>";
@@ -230,10 +232,9 @@
 			children = (
 				AF3E5FBE1D4B521E00A17796 /* LoginViewController.swift */,
 				AF3E5FC01D4B523F00A17796 /* RegisterViewController.swift */,
-				AFEF0F781D4CA3E1005716B7 /* HomeViewController.swift */,
-				AFEF0F7A1D4CA3F4005716B7 /* ContactsViewController.swift */,
-				AFEF0F7C1D4CA403005716B7 /* ActiveViewController.swift */,
-				AFEF0F7E1D4CA417005716B7 /* MeViewController.swift */,
+				AF6EBD961D4EDC5B00DDBF53 /* TabbarViewController.swift */,
+				AF6EBD981D4EE1A100DDBF53 /* HomeViewController.swift */,
+				AF6EBD9A1D4EE64200DDBF53 /* MeViewController.swift */,
 			);
 			name = ViewControll;
 			sourceTree = "<group>";
@@ -396,15 +397,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFEF0F7F1D4CA417005716B7 /* MeViewController.swift in Sources */,
-				AFEF0F7D1D4CA403005716B7 /* ActiveViewController.swift in Sources */,
 				AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */,
-				AFEF0F7B1D4CA3F4005716B7 /* ContactsViewController.swift in Sources */,
 				AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */,
+				AF6EBD9B1D4EE64200DDBF53 /* MeViewController.swift in Sources */,
+				AF6EBD971D4EDC5B00DDBF53 /* TabbarViewController.swift in Sources */,
 				392328971D1A760C00822D53 /* AppDelegate.swift in Sources */,
 				AF3E5FC91D4C8AEC00A17796 /* BmobController.swift in Sources */,
+				AF6EBD991D4EE1A100DDBF53 /* HomeViewController.swift in Sources */,
 				397AAF221D4C6D4000EF2CC8 /* User.swift in Sources */,
-				AFEF0F791D4CA3E1005716B7 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,7 +2,7 @@
 //  HomeViewController.swift
 //  GroupTall
 //
-//  Created by Dule on 7/30/16.
+//  Created by Dule on 8/1/16.
 //  Copyright © 2016 liuzhenyu. All rights reserved.
 //
 
