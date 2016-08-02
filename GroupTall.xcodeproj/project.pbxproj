@@ -60,6 +60,7 @@
 		AF9ACFD41D50A3D000D2069B /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AF9ACFCC1D50A3D000D2069B /* zh-Hans.lproj */; };
 		AF9ACFD61D50A4C300D2069B /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9ACFD51D50A4C300D2069B /* ConversationViewController.swift */; };
 		AF9ACFD81D50A4F000D2069B /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9ACFD71D50A4F000D2069B /* ConversationListViewController.swift */; };
+		AF9ACFDA1D50DE2700D2069B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9ACFD91D50DE2600D2069B /* RoundButton.swift */; };
 		AF9F59991D4DEC4000CC6A04 /* Active.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59951D4DEC4000CC6A04 /* Active.png */; };
 		AF9F599A1D4DEC4000CC6A04 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59961D4DEC4000CC6A04 /* Contacts.png */; };
 		AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59971D4DEC4000CC6A04 /* Me.png */; };
@@ -145,6 +146,7 @@
 		AF9ACFCC1D50A3D000D2069B /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
 		AF9ACFD51D50A4C300D2069B /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
 		AF9ACFD71D50A4F000D2069B /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
+		AF9ACFD91D50DE2600D2069B /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		AF9F59951D4DEC4000CC6A04 /* Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Active.png; sourceTree = "<group>"; };
 		AF9F59961D4DEC4000CC6A04 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
 		AF9F59971D4DEC4000CC6A04 /* Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me.png; sourceTree = "<group>"; };
@@ -345,6 +347,7 @@
 			children = (
 				3923289F1D1A760C00822D53 /* LaunchScreen.storyboard */,
 				AF422EC31D4B491200AA731B /* Main.storyboard */,
+				AF9ACFD91D50DE2600D2069B /* RoundButton.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */,
 				AF9ACFD61D50A4C300D2069B /* ConversationViewController.swift in Sources */,
 				AF6EBD9B1D4EE64200DDBF53 /* MeViewController.swift in Sources */,
+				AF9ACFDA1D50DE2700D2069B /* RoundButton.swift in Sources */,
 				AF6EBD971D4EDC5B00DDBF53 /* TabbarViewController.swift in Sources */,
 				392328971D1A760C00822D53 /* AppDelegate.swift in Sources */,
 				AF3E5FC91D4C8AEC00A17796 /* BmobController.swift in Sources */,

@@ -41,7 +41,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-qd-OWO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-qd-OWO" customClass="RoundButton" customModule="GroupTall" customModuleProvider="target">
                                 <rect key="frame" x="20" y="410" width="560" height="52"/>
                                 <color key="backgroundColor" red="0.02853195058" green="0.77694310899999997" blue="0.18056155269999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -51,6 +51,11 @@
                                 <state key="normal" title="Login">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnLoginOnClicked:" destination="Sb9-yk-Nwo" eventType="touchUpInside" id="TEv-9g-6CW"/>
                                 </connections>
@@ -62,6 +67,9 @@
                             <view alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BxP-WM-udr">
                                 <rect key="frame" x="20" y="180" width="560" height="1"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Due-T6-ppI"/>
+                                </constraints>
                             </view>
                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Onl-ut-7Tl">
                                 <rect key="frame" x="20" y="480" width="255" height="2"/>
@@ -185,7 +193,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sga-bM-XZC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sga-bM-XZC" customClass="RoundButton" customModule="GroupTall" customModuleProvider="target">
                                 <rect key="frame" x="20" y="410" width="560" height="52"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -195,6 +203,14 @@
                                 <state key="normal" title="Register">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="btnLoginOnClicked:" destination="Sb9-yk-Nwo" eventType="touchUpInside" id="a6q-Bx-O6o"/>
                                     <action selector="btnRegisterOnClicked:" destination="495-lC-LmC" eventType="touchUpInside" id="7bt-tt-qhU"/>
@@ -670,6 +686,6 @@
         <image name="login_back" width="750" height="1334"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="7vd-rp-7OS"/>
+        <segue reference="u0b-Dn-szY"/>
     </inferredMetricsTieBreakers>
 </document>
