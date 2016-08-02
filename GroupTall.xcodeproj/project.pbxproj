@@ -33,6 +33,33 @@
 		AF6EBD991D4EE1A100DDBF53 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EBD981D4EE1A100DDBF53 /* HomeViewController.swift */; };
 		AF6EBD9B1D4EE64200DDBF53 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6EBD9A1D4EE64200DDBF53 /* MeViewController.swift */; };
 		AF6EBD9D1D4EF46000DDBF53 /* BmobIMSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF6EBD9C1D4EF46000DDBF53 /* BmobIMSDK.framework */; };
+		AF9ACFA41D50A25E00D2069B /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFA31D50A25E00D2069B /* Photos.framework */; };
+		AF9ACFA61D50A26600D2069B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFA51D50A26600D2069B /* UIKit.framework */; };
+		AF9ACFA81D50A27300D2069B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFA71D50A27300D2069B /* QuartzCore.framework */; };
+		AF9ACFAA1D50A27D00D2069B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFA91D50A27D00D2069B /* OpenGLES.framework */; };
+		AF9ACFAC1D50A28500D2069B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFAB1D50A28500D2069B /* MapKit.framework */; };
+		AF9ACFAE1D50A28F00D2069B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFAD1D50A28F00D2069B /* libz.tbd */; };
+		AF9ACFB01D50A29800D2069B /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFAF1D50A29800D2069B /* libxml2.tbd */; };
+		AF9ACFB21D50A2CF00D2069B /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFB11D50A2CF00D2069B /* libstdc++.tbd */; };
+		AF9ACFB51D50A32000D2069B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFB31D50A32000D2069B /* libc++.tbd */; };
+		AF9ACFB61D50A32000D2069B /* libc++abi.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFB41D50A32000D2069B /* libc++abi.tbd */; };
+		AF9ACFB81D50A32B00D2069B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFB71D50A32B00D2069B /* ImageIO.framework */; };
+		AF9ACFBA1D50A33400D2069B /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFB91D50A33400D2069B /* CoreAudio.framework */; };
+		AF9ACFBD1D50A35300D2069B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFBB1D50A35300D2069B /* CoreMedia.framework */; };
+		AF9ACFBE1D50A35300D2069B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFBC1D50A35300D2069B /* CoreVideo.framework */; };
+		AF9ACFC01D50A37A00D2069B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFBF1D50A37A00D2069B /* AVFoundation.framework */; };
+		AF9ACFC21D50A38700D2069B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFC11D50A38700D2069B /* AudioToolbox.framework */; };
+		AF9ACFC41D50A39000D2069B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFC31D50A39000D2069B /* AssetsLibrary.framework */; };
+		AF9ACFCD1D50A3D000D2069B /* Emoji.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF9ACFC51D50A3D000D2069B /* Emoji.plist */; };
+		AF9ACFCE1D50A3D000D2069B /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AF9ACFC61D50A3D000D2069B /* en.lproj */; };
+		AF9ACFCF1D50A3D000D2069B /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFC71D50A3D000D2069B /* libopencore-amrnb.a */; };
+		AF9ACFD01D50A3D000D2069B /* RCConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = AF9ACFC81D50A3D000D2069B /* RCConfig.plist */; };
+		AF9ACFD11D50A3D000D2069B /* RongCloud.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AF9ACFC91D50A3D000D2069B /* RongCloud.bundle */; };
+		AF9ACFD21D50A3D000D2069B /* RongIMKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFCA1D50A3D000D2069B /* RongIMKit.framework */; };
+		AF9ACFD31D50A3D000D2069B /* RongIMLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF9ACFCB1D50A3D000D2069B /* RongIMLib.framework */; };
+		AF9ACFD41D50A3D000D2069B /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = AF9ACFCC1D50A3D000D2069B /* zh-Hans.lproj */; };
+		AF9ACFD61D50A4C300D2069B /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9ACFD51D50A4C300D2069B /* ConversationViewController.swift */; };
+		AF9ACFD81D50A4F000D2069B /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9ACFD71D50A4F000D2069B /* ConversationListViewController.swift */; };
 		AF9F59991D4DEC4000CC6A04 /* Active.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59951D4DEC4000CC6A04 /* Active.png */; };
 		AF9F599A1D4DEC4000CC6A04 /* Contacts.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59961D4DEC4000CC6A04 /* Contacts.png */; };
 		AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59971D4DEC4000CC6A04 /* Me.png */; };
@@ -91,6 +118,33 @@
 		AF6EBD981D4EE1A100DDBF53 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF6EBD9A1D4EE64200DDBF53 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
 		AF6EBD9C1D4EF46000DDBF53 /* BmobIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobIMSDK.framework; sourceTree = "<group>"; };
+		AF9ACFA31D50A25E00D2069B /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		AF9ACFA51D50A26600D2069B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF9ACFA71D50A27300D2069B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		AF9ACFA91D50A27D00D2069B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		AF9ACFAB1D50A28500D2069B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AF9ACFAD1D50A28F00D2069B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		AF9ACFAF1D50A29800D2069B /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		AF9ACFB11D50A2CF00D2069B /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		AF9ACFB31D50A32000D2069B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		AF9ACFB41D50A32000D2069B /* libc++abi.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++abi.tbd"; path = "usr/lib/libc++abi.tbd"; sourceTree = SDKROOT; };
+		AF9ACFB71D50A32B00D2069B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		AF9ACFB91D50A33400D2069B /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		AF9ACFBB1D50A35300D2069B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		AF9ACFBC1D50A35300D2069B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AF9ACFBF1D50A37A00D2069B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AF9ACFC11D50A38700D2069B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AF9ACFC31D50A39000D2069B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AF9ACFC51D50A3D000D2069B /* Emoji.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Emoji.plist; sourceTree = "<group>"; };
+		AF9ACFC61D50A3D000D2069B /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		AF9ACFC71D50A3D000D2069B /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		AF9ACFC81D50A3D000D2069B /* RCConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = RCConfig.plist; sourceTree = "<group>"; };
+		AF9ACFC91D50A3D000D2069B /* RongCloud.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RongCloud.bundle; sourceTree = "<group>"; };
+		AF9ACFCA1D50A3D000D2069B /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMKit.framework; sourceTree = "<group>"; };
+		AF9ACFCB1D50A3D000D2069B /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RongIMLib.framework; sourceTree = "<group>"; };
+		AF9ACFCC1D50A3D000D2069B /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		AF9ACFD51D50A4C300D2069B /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		AF9ACFD71D50A4F000D2069B /* ConversationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationListViewController.swift; sourceTree = "<group>"; };
 		AF9F59951D4DEC4000CC6A04 /* Active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Active.png; sourceTree = "<group>"; };
 		AF9F59961D4DEC4000CC6A04 /* Contacts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Contacts.png; sourceTree = "<group>"; };
 		AF9F59971D4DEC4000CC6A04 /* Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me.png; sourceTree = "<group>"; };
@@ -103,17 +157,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9ACFC41D50A39000D2069B /* AssetsLibrary.framework in Frameworks */,
+				AF9ACFD21D50A3D000D2069B /* RongIMKit.framework in Frameworks */,
+				AF9ACFC21D50A38700D2069B /* AudioToolbox.framework in Frameworks */,
+				AF9ACFC01D50A37A00D2069B /* AVFoundation.framework in Frameworks */,
+				392328CF1D1A770C00822D53 /* CFNetwork.framework in Frameworks */,
+				392328C71D1A76D700822D53 /* CoreLocation.framework in Frameworks */,
+				AF9ACFBD1D50A35300D2069B /* CoreMedia.framework in Frameworks */,
+				AF9ACFBE1D50A35300D2069B /* CoreVideo.framework in Frameworks */,
+				392328CB1D1A76F900822D53 /* CoreGraphics.framework in Frameworks */,
+				392328D11D1A771800822D53 /* CoreTelephony.framework in Frameworks */,
+				AF9ACFBA1D50A33400D2069B /* CoreAudio.framework in Frameworks */,
+				AF9ACFB81D50A32B00D2069B /* ImageIO.framework in Frameworks */,
+				AF9ACFB51D50A32000D2069B /* libc++.tbd in Frameworks */,
+				AF9ACFB61D50A32000D2069B /* libc++abi.tbd in Frameworks */,
+				AF9ACFCF1D50A3D000D2069B /* libopencore-amrnb.a in Frameworks */,
 				392328D91D1A774800822D53 /* libsqlite3.tbd in Frameworks */,
+				AF9ACFB21D50A2CF00D2069B /* libstdc++.tbd in Frameworks */,
+				AF9ACFB01D50A29800D2069B /* libxml2.tbd in Frameworks */,
+				AF9ACFD31D50A3D000D2069B /* RongIMLib.framework in Frameworks */,
+				AF9ACFAE1D50A28F00D2069B /* libz.tbd in Frameworks */,
+				AF9ACFAC1D50A28500D2069B /* MapKit.framework in Frameworks */,
+				AF9ACFAA1D50A27D00D2069B /* OpenGLES.framework in Frameworks */,
+				AF9ACFA81D50A27300D2069B /* QuartzCore.framework in Frameworks */,
+				392328D31D1A772300822D53 /* SystemConfiguration.framework in Frameworks */,
+				AF9ACFA61D50A26600D2069B /* UIKit.framework in Frameworks */,
+				AF9ACFA41D50A25E00D2069B /* Photos.framework in Frameworks */,
 				392328D71D1A773E00822D53 /* libicucore.tbd in Frameworks */,
 				392328D51D1A772E00822D53 /* libz.1.2.5.tbd in Frameworks */,
 				AF6EBD9D1D4EF46000DDBF53 /* BmobIMSDK.framework in Frameworks */,
-				392328D31D1A772300822D53 /* SystemConfiguration.framework in Frameworks */,
-				392328D11D1A771800822D53 /* CoreTelephony.framework in Frameworks */,
-				392328CF1D1A770C00822D53 /* CFNetwork.framework in Frameworks */,
 				392328CD1D1A770100822D53 /* MobileCoreServices.framework in Frameworks */,
-				392328CB1D1A76F900822D53 /* CoreGraphics.framework in Frameworks */,
 				392328C91D1A76E300822D53 /* Security.framework in Frameworks */,
-				392328C71D1A76D700822D53 /* CoreLocation.framework in Frameworks */,
 				392328C51D1A76AD00822D53 /* BmobSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +263,31 @@
 		39FF91081D4AEA0D0066D184 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				AF9ACFC51D50A3D000D2069B /* Emoji.plist */,
+				AF9ACFC61D50A3D000D2069B /* en.lproj */,
+				AF9ACFC71D50A3D000D2069B /* libopencore-amrnb.a */,
+				AF9ACFC81D50A3D000D2069B /* RCConfig.plist */,
+				AF9ACFC91D50A3D000D2069B /* RongCloud.bundle */,
+				AF9ACFCA1D50A3D000D2069B /* RongIMKit.framework */,
+				AF9ACFCB1D50A3D000D2069B /* RongIMLib.framework */,
+				AF9ACFCC1D50A3D000D2069B /* zh-Hans.lproj */,
+				AF9ACFC31D50A39000D2069B /* AssetsLibrary.framework */,
+				AF9ACFC11D50A38700D2069B /* AudioToolbox.framework */,
+				AF9ACFBF1D50A37A00D2069B /* AVFoundation.framework */,
+				AF9ACFBB1D50A35300D2069B /* CoreMedia.framework */,
+				AF9ACFBC1D50A35300D2069B /* CoreVideo.framework */,
+				AF9ACFB91D50A33400D2069B /* CoreAudio.framework */,
+				AF9ACFB71D50A32B00D2069B /* ImageIO.framework */,
+				AF9ACFB31D50A32000D2069B /* libc++.tbd */,
+				AF9ACFB41D50A32000D2069B /* libc++abi.tbd */,
+				AF9ACFB11D50A2CF00D2069B /* libstdc++.tbd */,
+				AF9ACFAF1D50A29800D2069B /* libxml2.tbd */,
+				AF9ACFAD1D50A28F00D2069B /* libz.tbd */,
+				AF9ACFAB1D50A28500D2069B /* MapKit.framework */,
+				AF9ACFA91D50A27D00D2069B /* OpenGLES.framework */,
+				AF9ACFA71D50A27300D2069B /* QuartzCore.framework */,
+				AF9ACFA51D50A26600D2069B /* UIKit.framework */,
+				AF9ACFA31D50A25E00D2069B /* Photos.framework */,
 				392328D81D1A774800822D53 /* libsqlite3.tbd */,
 				392328D61D1A773E00822D53 /* libicucore.tbd */,
 				392328D41D1A772E00822D53 /* libz.1.2.5.tbd */,
@@ -235,6 +334,8 @@
 				AF6EBD961D4EDC5B00DDBF53 /* TabbarViewController.swift */,
 				AF6EBD981D4EE1A100DDBF53 /* HomeViewController.swift */,
 				AF6EBD9A1D4EE64200DDBF53 /* MeViewController.swift */,
+				AF9ACFD51D50A4C300D2069B /* ConversationViewController.swift */,
+				AF9ACFD71D50A4F000D2069B /* ConversationListViewController.swift */,
 			);
 			name = ViewControll;
 			sourceTree = "<group>";
@@ -365,10 +466,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF9F599A1D4DEC4000CC6A04 /* Contacts.png in Resources */,
+				AF9ACFCE1D50A3D000D2069B /* en.lproj in Resources */,
 				AF422EC41D4B491200AA731B /* Main.storyboard in Resources */,
+				AF9ACFD01D50A3D000D2069B /* RCConfig.plist in Resources */,
+				AF9ACFD11D50A3D000D2069B /* RongCloud.bundle in Resources */,
 				AF9F59A01D4DEDD300CC6A04 /* IMUDGES.png in Resources */,
 				392328A11D1A760C00822D53 /* LaunchScreen.storyboard in Resources */,
 				AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */,
+				AF9ACFCD1D50A3D000D2069B /* Emoji.plist in Resources */,
+				AF9ACFD41D50A3D000D2069B /* zh-Hans.lproj in Resources */,
 				AF9F599C1D4DEC4000CC6A04 /* Home.png in Resources */,
 				AF6C3BCF1D4DDF1A0062DD38 /* login_back.png in Resources */,
 				3923289E1D1A760C00822D53 /* Assets.xcassets in Resources */,
@@ -399,10 +505,12 @@
 			files = (
 				AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */,
 				AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */,
+				AF9ACFD61D50A4C300D2069B /* ConversationViewController.swift in Sources */,
 				AF6EBD9B1D4EE64200DDBF53 /* MeViewController.swift in Sources */,
 				AF6EBD971D4EDC5B00DDBF53 /* TabbarViewController.swift in Sources */,
 				392328971D1A760C00822D53 /* AppDelegate.swift in Sources */,
 				AF3E5FC91D4C8AEC00A17796 /* BmobController.swift in Sources */,
+				AF9ACFD81D50A4F000D2069B /* ConversationListViewController.swift in Sources */,
 				AF6EBD991D4EE1A100DDBF53 /* HomeViewController.swift in Sources */,
 				397AAF221D4C6D4000EF2CC8 /* User.swift in Sources */,
 			);
@@ -547,6 +655,10 @@
 				);
 				INFOPLIST_FILE = GroupTall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = IMUDGES.GroupTall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -568,6 +680,10 @@
 				);
 				INFOPLIST_FILE = GroupTall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = IMUDGES.GroupTall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
