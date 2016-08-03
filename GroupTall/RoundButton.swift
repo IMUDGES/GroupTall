@@ -31,4 +31,9 @@ class RoundButton: UIButton {
             self.layer.borderWidth = borderWidth
         }
     }
+    @IBInspectable var borderColor: UIColor? {
+        didSet{
+            self.layer.borderColor = borderColor?.CGColor
+        }
+    }
 }

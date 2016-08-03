@@ -8,18 +8,6 @@
 
 import UIKit
 
-//extension UIView {
-//    @IBInspectable var cornerRadius:CGFloat {
-//        get {
-//            return self.layer.cornerRadius
-//        }
-//        set {
-//            self.layer.cornerRadius = newValue
-//            self.layer.masksToBounds = (newValue > 0)
-//        }
-//    }
-//}
-
 class LoginViewController: UIViewController {
 
     @IBOutlet weak var tf_phoneNumber: UITextField!
@@ -90,5 +78,16 @@ class LoginViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    @IBAction func DoneEditPhoneNumberAndCloseKeyBord(sender: AnyObject) {
+        tf_phoneNumber.resignFirstResponder()
+    }
+    
+    @IBAction func DoneEditPasswordAndCloseKeyBord(sender: AnyObject) {
+        tf_password.resignFirstResponder()
+    }
 
 }

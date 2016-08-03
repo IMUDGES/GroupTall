@@ -213,7 +213,7 @@ class UITextBox: UITextField {
         case .Wrong:        return wrongColor
         case .Warning:      return warningColor
         case .Validator:    return validatorColor
-        default:            return self.isFirstResponder() ? highlightColor : self.backgroundColor ?? UIColor.clearColor()
+        default:            return self.isFirstResponder() ? highlightColor : self.backgroundColor ?? UIColor.lightTextColor()
         }
     }
     /*

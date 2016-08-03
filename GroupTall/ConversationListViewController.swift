@@ -21,6 +21,12 @@ class ConversationListViewController: RCConversationListViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
+    }
+
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
         let appDelegate = UIApplication.sharedApplication().delegate as? AppDelegate
         appDelegate?.connectServer({
             self.setDisplayConversationTypes([
@@ -34,12 +40,10 @@ class ConversationListViewController: RCConversationListViewController {
                 ])
             self.refreshConversationTableViewIfNeeded()
         })
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func viewDidAppear(animated: Bool) {
         self.tabBarController?.tabBar.hidden = false
+    }
+    override func viewDidAppear(animated: Bool) {
+        super.viewDidAppear(animated)
     }
     
     // MARK: - Navigation
