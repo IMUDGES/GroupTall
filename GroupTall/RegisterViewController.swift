@@ -48,14 +48,14 @@ class RegisterViewController: UIViewController {
     // 注册
     func register(phoneNumber:String,password:String){
         let registerInfo:Dictionary<String,String>=["phoneNumber":phoneNumber,"password":password]
-        //创建bmob对象并且查询表UserInfo
+        // 创建bmob对象并且查询表UserInfo
         let bmob:BmobObject=BmobController.insert("UserInfo", insertInfo: registerInfo)
         bmob.saveInBackgroundWithResultBlock { (isSuccessful, error) in
             if error != nil{
                 let errorInfo=error.localizedDescription
                 self.noticeOnlyText("Register Faild! \(errorInfo)", autoClear: true, autoClearTime: 1)
             }else{
-                //设置存储信息
+                // 设置存储信息
                 NSUserDefaults.standardUserDefaults().setObject(phoneNumber, forKey:"phoneNumber")
                 NSUserDefaults.standardUserDefaults().setObject(password, forKey: "password")
                 NSUserDefaults.standardUserDefaults().synchronize()
@@ -64,7 +64,7 @@ class RegisterViewController: UIViewController {
         }
     }
     
-    //验证表单的正确性
+    // 验证表单的正确性
     func FormIsRight()-> Bool {
         // 从界面获取信息
         let phoneNumber=tf_phoneNumber.text
@@ -92,10 +92,7 @@ class RegisterViewController: UIViewController {
             for i in 0..<array.count{
                 let obj = array[i] as! BmobObject
                 let bmob_phoneNumber = obj.objectForKey("phoneNumber") as? String
-                print(phoneNumber!)
-                print(bmob_phoneNumber!)
                 if phoneNumber! == bmob_phoneNumber! {
-                    print("has")
                     phoneNumberExist = true
                     return
                 }
@@ -132,19 +129,19 @@ class RegisterViewController: UIViewController {
     }
     */
     
-    //触摸非输入区隐藏键盘
+    // 触摸非输入区隐藏键盘
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         self.view.endEditing(true)
     }
-    //手机号输入框的return事件设置为隐藏键盘
+    // 手机号输入框的return事件设置为隐藏键盘
     @IBAction func DoneCloseKeyBord(sender: AnyObject) {
         tf_phoneNumber.resignFirstResponder();
     }
-    //密码输入框的return事件设置为隐藏键盘
+    // 密码输入框的return事件设置为隐藏键盘
     @IBAction func DoneEditPasswordAndCloseKeyBord(sender: AnyObject) {
         tf_password.resignFirstResponder()
     }
-    //密码重复输入框的return事件设置为隐藏键盘
+    // 密码重复输入框的return事件设置为隐藏键盘
     @IBAction func DoneEditPasswordRepetEditAndCloseKeyBord(sender: AnyObject) {
         tf_passwordRepet.resignFirstResponder()
     }

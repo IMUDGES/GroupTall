@@ -12,6 +12,7 @@ class ConversationViewController: RCConversationViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 设置聊天界面中用户的头像位圆形
         self.setMessageAvatarStyle(.USER_AVATAR_CYCLE)
         // Do any additional setup after loading the view.
     }

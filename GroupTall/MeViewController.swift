@@ -12,6 +12,7 @@ class MeViewController: UITableViewController {
 
 
     @IBAction func btnLogoutOnClicked(sender: AnyObject) {
+        // 清除本地存储的用户信息
         NSUserDefaults.standardUserDefaults().setObject("", forKey:"phoneNumber")
         NSUserDefaults.standardUserDefaults().setObject("", forKey: "password")
         NSUserDefaults.standardUserDefaults().synchronize()
@@ -19,7 +20,6 @@ class MeViewController: UITableViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
