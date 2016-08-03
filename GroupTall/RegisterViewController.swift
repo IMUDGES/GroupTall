@@ -12,6 +12,8 @@ class RegisterViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+//        self.noticeTopRed("Success!")
+//        self.clearAllNotice() // clear
         // Do any additional setup after loading the view.
     }
 
@@ -28,17 +30,10 @@ class RegisterViewController: UIViewController {
         let password=tf_password.text
         let passwordRepet=tf_passwordRepet.text
         if (phoneNumber == nil || password == nil || passwordRepet == nil || phoneNumber == "" || password == "" || passwordRepet == ""){
-            //            let alertController = UIAlertController(title:"Error", message:"Must be fill all the options.", preferredStyle:UIAlertControllerStyle.Alert)
-            //            let cancelAction = UIAlertAction(title:"Cancel", style: UIAlertActionStyle.Cancel, handler: nil)
-            //            let okAction = UIAlertAction(title:"OK", style: UIAlertActionStyle.Default, handler: nil)
-            //            alertController.addAction(cancelAction)
-            //            alertController.addAction(okAction)
-            //            self.presentViewController(alertController, animated:true, completion: nil)
-            //FIXME: Change style to support ios 9.0
-            UIAlertView(title: "Error", message: "Must be fill all the options.", delegate: self, cancelButtonTitle: "OK").show()
+            self.noticeOnlyText("Must be fill all the options.", autoClear: true, autoClearTime: 1)
+
         }else if(password! != passwordRepet!){
-            //FIXME: Change style to support ios 9.0
-            UIAlertView(title: "Error", message: "Password repet is not same as password.", delegate: self, cancelButtonTitle: "OK").show()
+            self.noticeOnlyText("Password repet is not same as password.", autoClear: true, autoClearTime: 1)
         }else{
             self.register(phoneNumber!,password:password!)
         }
@@ -49,8 +44,7 @@ class RegisterViewController: UIViewController {
         bmob.saveInBackgroundWithResultBlock { (isSuccessful, error) in
             if error != nil{
                 let errorInfo=error.localizedDescription
-                // FIXME: Change style to support ios 9.0
-                UIAlertView(title: "Error", message: "Register Faild! \(errorInfo)", delegate: self, cancelButtonTitle: "OK").show()
+                self.noticeOnlyText("Register Faild! \(errorInfo)", autoClear: true, autoClearTime: 1)
             }else{
                 //设置存储信息
                 NSUserDefaults.standardUserDefaults().setObject(phoneNumber, forKey:"phoneNumber")

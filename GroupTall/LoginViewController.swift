@@ -27,8 +27,7 @@ class LoginViewController: UIViewController {
     @IBAction func btnLoginOnClicked(sender: AnyObject) {
         let user=User(phoneNumber: tf_phoneNumber.text , password: tf_password.text)
         if(user.getPhoneNumber() == nil || user.getPassword() == nil || user.getPhoneNumber() == "" || user.getPassword() == ""){
-            //FIXME: Change style to support ios 9.0
-            UIAlertView(title: "Error", message: "Must be fill all the options.", delegate: self, cancelButtonTitle: "OK").show()
+            self.noticeOnlyText("Must be fill all the options.", autoClear: true, autoClearTime: 1)
         }else{
             login(user)
         }
@@ -65,20 +64,17 @@ class LoginViewController: UIViewController {
                         self.performSegueWithIdentifier("LoginSuccess", sender: self )
                         return
                     }else{
-                        //FIXME: Change style to support ios 9.0
-                        UIAlertView(title: "Error", message: "Password wrong!", delegate: self, cancelButtonTitle: "OK").show()
+                        self.noticeOnlyText("Password wrong!", autoClear: true, autoClearTime: 1)
                         return
                     }
                 }
             }
             if error != nil{
                 let errorInfo=error.localizedDescription
-                //FIXME: Change style to support ios 9.0
-                UIAlertView(title: "Error", message: "Login Faild! \(errorInfo)", delegate: self, cancelButtonTitle: "OK").show()
+                self.noticeOnlyText("Login Faild! \(errorInfo)", autoClear: true, autoClearTime: 1)
                 return
             }else{
-                //FIXME: Change style to support ios 9.0
-                UIAlertView(title: "Error", message: "Phone number not found!", delegate: self, cancelButtonTitle: "OK").show()
+                self.noticeOnlyText("Phone number not found!", autoClear: true, autoClearTime: 1)
                 return
             }
         }

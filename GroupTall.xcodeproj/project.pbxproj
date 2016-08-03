@@ -66,6 +66,8 @@
 		AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59971D4DEC4000CC6A04 /* Me.png */; };
 		AF9F599C1D4DEC4000CC6A04 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F59981D4DEC4000CC6A04 /* Home.png */; };
 		AF9F59A01D4DEDD300CC6A04 /* IMUDGES.png in Resources */ = {isa = PBXBuildFile; fileRef = AF9F599F1D4DEDD300CC6A04 /* IMUDGES.png */; };
+		AFD51D4F1D5180C900694BA4 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51D4E1D5180C900694BA4 /* SwiftNotice.swift */; };
+		AFD51D511D51875100694BA4 /* UITextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51D501D51875100694BA4 /* UITextBox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,6 +154,8 @@
 		AF9F59971D4DEC4000CC6A04 /* Me.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Me.png; sourceTree = "<group>"; };
 		AF9F59981D4DEC4000CC6A04 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
 		AF9F599F1D4DEDD300CC6A04 /* IMUDGES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMUDGES.png; sourceTree = "<group>"; };
+		AFD51D4E1D5180C900694BA4 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		AFD51D501D51875100694BA4 /* UITextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -265,6 +269,8 @@
 		39FF91081D4AEA0D0066D184 /* Framework */ = {
 			isa = PBXGroup;
 			children = (
+				AFD51D501D51875100694BA4 /* UITextBox.swift */,
+				AFD51D4E1D5180C900694BA4 /* SwiftNotice.swift */,
 				AF9ACFC51D50A3D000D2069B /* Emoji.plist */,
 				AF9ACFC61D50A3D000D2069B /* en.lproj */,
 				AF9ACFC71D50A3D000D2069B /* libopencore-amrnb.a */,
@@ -509,12 +515,14 @@
 				AF3E5FC11D4B523F00A17796 /* RegisterViewController.swift in Sources */,
 				AF3E5FBF1D4B521E00A17796 /* LoginViewController.swift in Sources */,
 				AF9ACFD61D50A4C300D2069B /* ConversationViewController.swift in Sources */,
+				AFD51D4F1D5180C900694BA4 /* SwiftNotice.swift in Sources */,
 				AF6EBD9B1D4EE64200DDBF53 /* MeViewController.swift in Sources */,
 				AF9ACFDA1D50DE2700D2069B /* RoundButton.swift in Sources */,
 				AF6EBD971D4EDC5B00DDBF53 /* TabbarViewController.swift in Sources */,
 				392328971D1A760C00822D53 /* AppDelegate.swift in Sources */,
 				AF3E5FC91D4C8AEC00A17796 /* BmobController.swift in Sources */,
 				AF9ACFD81D50A4F000D2069B /* ConversationListViewController.swift in Sources */,
+				AFD51D511D51875100694BA4 /* UITextBox.swift in Sources */,
 				AF6EBD991D4EE1A100DDBF53 /* HomeViewController.swift in Sources */,
 				397AAF221D4C6D4000EF2CC8 /* User.swift in Sources */,
 			);
@@ -658,6 +666,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GroupTall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -683,6 +692,7 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = GroupTall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
