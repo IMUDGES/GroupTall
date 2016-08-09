@@ -11,6 +11,7 @@ import UIKit
 class ContactsTableViewController: UITableViewController {
     
     var contacts:Array<String> = []
+    var phoneNumbers:Array<String> = []
     var conVC = UserInfoTableViewController()
     
     override func viewDidLoad() {
@@ -22,9 +23,13 @@ class ContactsTableViewController: UITableViewController {
                     let obj = array[i] as! BmobObject
                     // 从查询结果中获取手机号和密码
                     let bmob_nickName = obj.objectForKey("nickName") as? String
+                    let bmob_phoneNumber = obj.objectForKey("phoneNumber") as? String
                     if let bmob_nickName = bmob_nickName {
                         self.contacts.append(bmob_nickName)
-                        let indexPath = NSIndexPath(forRow:self.contacts.count-1,inSection:0)
+                    }
+                    if let bmob_phoneNumber = bmob_phoneNumber {
+                        self.phoneNumbers.append(bmob_phoneNumber)
+                        let indexPath = NSIndexPath(forRow:self.phoneNumbers.count-1,inSection:0)
                         self.tableView.insertRowsAtIndexPaths([indexPath],withRowAnimation:UITableViewRowAnimation.Automatic)
                     }
                 }
@@ -59,7 +64,8 @@ class ContactsTableViewController: UITableViewController {
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         conVC.title = contacts[indexPath.row]
         conVC.Tname = contacts[indexPath.row]
-        conVC.TphoneNumber = "15247173231"
+        conVC.TphoneNumber = phoneNumbers[indexPath.row]
+        conVC.Timage = UIImage(named: "Me")!
         self.performSegueWithIdentifier("ShowUserInfo", sender: self )
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

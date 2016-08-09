@@ -16,10 +16,12 @@ class UserInfoTableViewController: UITableViewController {
     @IBOutlet weak var phoneNumber: UILabel!
     internal var Tname = ""
     internal var TphoneNumber = ""
+    internal var Timage:UIImage = UIImage()
     override func viewDidLoad() {
         super.viewDidLoad()
         self.name.text = Tname
         self.phoneNumber.text = TphoneNumber
+        self.image.image = Timage
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(animated: Bool) {
