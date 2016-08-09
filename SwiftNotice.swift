@@ -56,6 +56,52 @@ extension UIViewController {
         SwiftNotice.clear()
     }
 }
+extension UITableViewCell{
+    func pleaseWaitWithImages(imageNames: Array<UIImage>, timeInterval: Int) {
+        SwiftNotice.wait(imageNames, timeInterval: timeInterval)
+    }
+    // api changed from v3.3
+    func noticeTopGreen(text: String, autoClear: Bool = true, autoClearTime: Int = 1) {
+        SwiftNotice.noticeOnStatusBarGreenBackground(text, autoClear: autoClear, autoClearTime: autoClearTime)
+    }
+    func noticeTopRed(text: String, autoClear: Bool = true, autoClearTime: Int = 1) {
+        SwiftNotice.noticeOnStatusBarRedBackground(text, autoClear: autoClear, autoClearTime: autoClearTime)
+    }
+    
+    // new apis from v3.3
+    func noticeSuccess(text: String, autoClear: Bool = false, autoClearTime: Int = 3) {
+        SwiftNotice.showNoticeWithText(NoticeType.success, text: text, autoClear: autoClear, autoClearTime: autoClearTime)
+    }
+    func noticeError(text: String, autoClear: Bool = false, autoClearTime: Int = 3) {
+        SwiftNotice.showNoticeWithText(NoticeType.error, text: text, autoClear: autoClear, autoClearTime: autoClearTime)
+    }
+    func noticeInfo(text: String, autoClear: Bool = false, autoClearTime: Int = 3) {
+        SwiftNotice.showNoticeWithText(NoticeType.info, text: text, autoClear: autoClear, autoClearTime: autoClearTime)
+    }
+    
+    // old apis
+    func successNotice(text: String, autoClear: Bool = true) {
+        SwiftNotice.showNoticeWithText(NoticeType.success, text: text, autoClear: autoClear, autoClearTime: 3)
+    }
+    func errorNotice(text: String, autoClear: Bool = true) {
+        SwiftNotice.showNoticeWithText(NoticeType.error, text: text, autoClear: autoClear, autoClearTime: 3)
+    }
+    func infoNotice(text: String, autoClear: Bool = true) {
+        SwiftNotice.showNoticeWithText(NoticeType.info, text: text, autoClear: autoClear, autoClearTime: 3)
+    }
+    func notice(text: String, type: NoticeType, autoClear: Bool, autoClearTime: Int = 3) {
+        SwiftNotice.showNoticeWithText(type, text: text, autoClear: autoClear, autoClearTime: autoClearTime)
+    }
+    func pleaseWait() {
+        SwiftNotice.wait()
+    }
+    func noticeOnlyText(text: String, autoClear: Bool, autoClearTime: Int) {
+        SwiftNotice.showText(text, autoClear: autoClear, autoClearTime: autoClearTime)
+    }
+    func clearAllNotice() {
+        SwiftNotice.clear()
+    }
+}
 
 enum NoticeType{
     case success
