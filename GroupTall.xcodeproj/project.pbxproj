@@ -70,6 +70,8 @@
 		AFA84DE31D586B1E00D3A7E1 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA84DE11D586B1E00D3A7E1 /* ContactCell.swift */; };
 		AFA84DE41D586B1E00D3A7E1 /* ContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA84DE21D586B1E00D3A7E1 /* ContactCell.xib */; };
 		AFA84DE61D59860200D3A7E1 /* UserInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA84DE51D59860200D3A7E1 /* UserInfoTableViewController.swift */; };
+		AFA84DEB1D5B167000D3A7E1 /* ActiveTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA84DE91D5B167000D3A7E1 /* ActiveTableViewCell.swift */; };
+		AFA84DEC1D5B167000D3A7E1 /* ActiveTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFA84DEA1D5B167000D3A7E1 /* ActiveTableViewCell.xib */; };
 		AFD51D4F1D5180C900694BA4 /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51D4E1D5180C900694BA4 /* SwiftNotice.swift */; };
 		AFD51D511D51875100694BA4 /* UITextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51D501D51875100694BA4 /* UITextBox.swift */; };
 		AFD51D631D52D9DC00694BA4 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD51D621D52D9DC00694BA4 /* ContactsTableViewController.swift */; };
@@ -163,6 +165,8 @@
 		AFA84DE11D586B1E00D3A7E1 /* ContactCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		AFA84DE21D586B1E00D3A7E1 /* ContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactCell.xib; sourceTree = "<group>"; };
 		AFA84DE51D59860200D3A7E1 /* UserInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewController.swift; sourceTree = "<group>"; };
+		AFA84DE91D5B167000D3A7E1 /* ActiveTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActiveTableViewCell.swift; sourceTree = "<group>"; };
+		AFA84DEA1D5B167000D3A7E1 /* ActiveTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActiveTableViewCell.xib; sourceTree = "<group>"; };
 		AFD51D4E1D5180C900694BA4 /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
 		AFD51D501D51875100694BA4 /* UITextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextBox.swift; sourceTree = "<group>"; };
 		AFD51D621D52D9DC00694BA4 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
@@ -358,6 +362,7 @@
 				AFD51D621D52D9DC00694BA4 /* ContactsTableViewController.swift */,
 				AFA84DE11D586B1E00D3A7E1 /* ContactCell.swift */,
 				AFA84DE51D59860200D3A7E1 /* UserInfoTableViewController.swift */,
+				AFA84DE91D5B167000D3A7E1 /* ActiveTableViewCell.swift */,
 			);
 			name = ViewControll;
 			sourceTree = "<group>";
@@ -369,6 +374,7 @@
 				AF422EC31D4B491200AA731B /* Main.storyboard */,
 				AF9ACFD91D50DE2600D2069B /* RoundButton.swift */,
 				AFA84DE21D586B1E00D3A7E1 /* ContactCell.xib */,
+				AFA84DEA1D5B167000D3A7E1 /* ActiveTableViewCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -497,6 +503,7 @@
 				AF9F59A01D4DEDD300CC6A04 /* IMUDGES.png in Resources */,
 				392328A11D1A760C00822D53 /* LaunchScreen.storyboard in Resources */,
 				AF9F599B1D4DEC4000CC6A04 /* Me.png in Resources */,
+				AFA84DEC1D5B167000D3A7E1 /* ActiveTableViewCell.xib in Resources */,
 				AF9ACFCD1D50A3D000D2069B /* Emoji.plist in Resources */,
 				AF9ACFD41D50A3D000D2069B /* zh-Hans.lproj in Resources */,
 				AF9F599C1D4DEC4000CC6A04 /* Home.png in Resources */,
@@ -542,6 +549,7 @@
 				AF3E5FC91D4C8AEC00A17796 /* BmobController.swift in Sources */,
 				AF9ACFD81D50A4F000D2069B /* ConversationListViewController.swift in Sources */,
 				AFD51D511D51875100694BA4 /* UITextBox.swift in Sources */,
+				AFA84DEB1D5B167000D3A7E1 /* ActiveTableViewCell.swift in Sources */,
 				AFA84DE31D586B1E00D3A7E1 /* ContactCell.swift in Sources */,
 				AF6EBD991D4EE1A100DDBF53 /* HomeViewController.swift in Sources */,
 				397AAF221D4C6D4000EF2CC8 /* User.swift in Sources */,
